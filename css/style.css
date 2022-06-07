@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4{
+    font-weight: 700;
+}
+.headerWrap{
+    background-image: url(../img/header.jpg);
+    background-color: #2a2549;
+    color: #fff;
+    background-size: cover;
+}
+.header{
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.logo{
+    float: left;
+}
+.headerTop{
+    overflow: hidden;
+}
+.headerBottom{
+    margin: 165px auto 0 auto;
+    text-align: center;
+    width: 770px;
+    padding-bottom: 205px;
+}
+.headerBottom h1{
+    font-size: 32px;
+}
+.headerBottom p{
+    margin: 52px auto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.linkButton{
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    text-decoration: none;
+    padding: 11px 19px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu{
+    float: right;
+    padding-top: 19px;
+}
+.menu li{
+    display: table-cell;
+}
+.menu li a{
+    color: #00e0d0;
+    margin-left:25px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.headerTop{
+    padding-top: 35px;
+}
+.content{
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.historyImg{
+    padding: 0 100px 0 65px;
+    float: left;
+}
+.history{
+    padding: 70px 0 85px 0;
+}
+.historyText{
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.historyText h2{
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.historyText p{
+    margin-bottom: 34px;
+}
+.form{
+    width: 460px;
+    margin: 0 auto 100px auto;
+}
+.inputClass{
+    outline: none;
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 23px;
+    border: 1px solid #acabb1;
+}
+.form h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-size: 22px;
+}
+.inputMessage{
+    height: 200px;
+}
+.inputButton{
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
+    padding: 11px 19px;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.footerContent{
+    background-image: url(../img/footer.jpg);
+    background-color: #2a2549;
+    background-size: cover;
+    height: 195px;
+}
+.footer{
+    width: 950px;
+    margin: 0 auto;
+}
+.imgFooter{
+    float: left;
+    margin: 70px 0 0 0 ;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin:90px 0  0  0;
+    float: right;
+    overflow: hidden;
+}
